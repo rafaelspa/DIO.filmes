@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ubuntu/Documents/DIO/proj/DIO.filmes/DIO.filmes/DIO.filmes.csproj",
+      "projectUniqueName": "/home/ubuntu/Documents/DIO/proj/DIO.filmes/DIO.filmes.csproj",
       "projectName": "DIO.filmes",
-      "projectPath": "/home/ubuntu/Documents/DIO/proj/DIO.filmes/DIO.filmes/DIO.filmes.csproj",
+      "projectPath": "/home/ubuntu/Documents/DIO/proj/DIO.filmes/DIO.filmes.csproj",
       "packagesPath": "/home/ubuntu/.nuget/packages/",
-      "outputPath": "/home/ubuntu/Documents/DIO/proj/DIO.filmes/DIO.filmes/obj/",
+      "outputPath": "/home/ubuntu/Documents/DIO/proj/DIO.filmes/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ubuntu/.nuget/NuGet/NuGet.Config"
