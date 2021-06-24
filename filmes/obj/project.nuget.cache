@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9DfhH5LVYcihhaLEprJzzLmCf1QAMFY+9kiJE6S1YQoXt+h1g6dmkRZ6fzRBoMamsVfdG5tMIeYax/24EdaHxg==",
+  "dgSpecHash": "cEP+xwLDounf5QRIjd/zZvhi4MjTm2Q7jnNuXUAMbg8rHH2JBRuRJUuGiFqmMmF9oocMxfYKjUJNlEnPm5AAWw==",
   "success": true,
-  "projectFilePath": "/home/ubuntu/Documents/DIO/proj/DIO.filmes/DIO.filmes.csproj",
+  "projectFilePath": "/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/filmes.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

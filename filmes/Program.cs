@@ -51,6 +51,7 @@ namespace DIO.filmes
       Console.WriteLine("C- Limpar tela");
       Console.WriteLine("X- Sair");
       Console.WriteLine();
+      Console.Write("Digite a Opção: ");
 
       string opcaoUsuario = Console.ReadLine().ToUpper();
       Console.WriteLine();
@@ -58,7 +59,7 @@ namespace DIO.filmes
     }
     private static void ListarFilmes()
     {
-      Console.WriteLine("Filmes registrados:");
+      Console.WriteLine("-Filmes cadastrados-");
       Console.WriteLine();
 
 
@@ -70,33 +71,38 @@ namespace DIO.filmes
         return;
       }
 
-      Console.WriteLine(" Id\tTítulo\tDisponibilidade");
+      Console.WriteLine("Id\tTítulo\t\t\tDisponibilidade");
       foreach (var filme in lista)
       {
         var excluido = filme.retornaExcluido();
-        Console.WriteLine("{0}\t{1}\t{2}", filme.retornaId(), filme.retornaTitulo(), excluido ? "N" : "S");
+        Console.WriteLine("{0}\t{1}\t\t\t{2}", filme.retornaId(), filme.retornaTitulo(), excluido ? "N" : "S");
       }
     }
 
     private static void InserirFilme()
     {
-      Console.WriteLine("Insira um filme novo: ");
+      Console.WriteLine("-Insira um filme novo-");
       Console.WriteLine();
 
       foreach (int i in Enum.GetValues(typeof(Genero)))
       {
-        Console.WriteLine("Digite {0} para escolher {1}", Enum.GetName(typeof(Genero), i));
+        Console.WriteLine("Digite {0} para escolher {1}", i, Enum.GetName(typeof(Genero), i));
       }
-      Console.WriteLine("Opcao escolhida: ");
+
+      Console.WriteLine();
+
+      Console.Write("Opcao escolhida: ");
       int entradaGenero = int.Parse(Console.ReadLine());
 
-      Console.WriteLine("Digite o título: ");
+      Console.WriteLine();
+
+      Console.Write("Digite o título: ");
       string entradaTitulo = Console.ReadLine();
 
-      Console.WriteLine("Digite o ano de lançamento: ");
+      Console.Write("Digite o ano de lançamento: ");
       int entradaAno = int.Parse(Console.ReadLine());
 
-      Console.WriteLine("Digite uma sinopse: ");
+      Console.Write("Escreva uma sinopse: ");
       string entradaSinopse = Console.ReadLine();
 
       Filme novoFilme = new Filme(id: repositorio.UltimoId(),
@@ -110,25 +116,33 @@ namespace DIO.filmes
     private static void AtualizarFilme()
     {
 
-      Console.WriteLine("Atualizando um filme");
+      Console.WriteLine("-Atualizando um filme-");
+      Console.WriteLine();
 
-      Console.WriteLine("Digite o Id do filme: ");
+      Console.Write("Digite o Id do filme: ");
       int entradaId = int.Parse(Console.ReadLine());
 
       Console.WriteLine("Cadastrando o novo filme");
 
       foreach (int i in Enum.GetValues(typeof(Genero)))
       {
-        Console.WriteLine("Digite {0} para escolher {1}", i, Enum.GetValues(typeof(Genero)));
+        Console.WriteLine("Digite {0} para escolher {1}", i, Enum.GetName(typeof(Genero), i));
       }
-      Console.WriteLine("Digite a opção escolhida: ");
+
+      Console.WriteLine();
+
+      Console.Write("Digite a opção escolhida: ");
       int entradaGenero = int.Parse(Console.ReadLine());
 
-      Console.WriteLine("Digite o novo título: ");
+      Console.WriteLine();
+
+      Console.Write("Digite o novo título: ");
       string entradaTitulo = Console.ReadLine();
-      Console.WriteLine("Digite o ano de lançamento: ");
+
+      Console.Write("Digite o ano de lançamento: ");
       int entradaAno = int.Parse(Console.ReadLine());
-      Console.WriteLine("Digite a sinopse: ");
+
+      Console.Write("Escreva a sinopse: ");
       string entradaSinopse = Console.ReadLine();
 
       var filme = new Filme(id: entradaId,
@@ -140,20 +154,20 @@ namespace DIO.filmes
     }
     private static void ExcluirFilme()
     {
-      Console.WriteLine("Excluindo um filme");
+      Console.WriteLine("-Excluindo um filme-");
       Console.WriteLine();
 
-      Console.WriteLine("Digite o id do filme: ");
+      Console.Write("Digite o id do filme: ");
       int entradaId = int.Parse(Console.ReadLine());
 
       repositorio.Exclui(entradaId);
     }
     private static void VisualizarFilme()
     {
-      Console.WriteLine("Visualizando um filme");
+      Console.WriteLine("-Visualizando um filme-");
       Console.WriteLine();
 
-      Console.WriteLine("Digite o id do filme");
+      Console.Write("Digite o id do filme: ");
       int entradaId = int.Parse(Console.ReadLine());
 
       var filme = repositorio.retornaPorId(entradaId);

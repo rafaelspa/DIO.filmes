@@ -26,8 +26,6 @@ namespace DIO.filmes
 
     Suspense = 12,
 
-    Terror = 13,
-
-
+    Terror = 13
   }
 }

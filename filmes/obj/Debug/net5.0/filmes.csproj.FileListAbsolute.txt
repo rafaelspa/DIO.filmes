@@ -1,0 +1,16 @@
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/bin/Debug/net5.0/filmes
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/bin/Debug/net5.0/filmes.deps.json
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/bin/Debug/net5.0/filmes.runtimeconfig.json
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/bin/Debug/net5.0/filmes.runtimeconfig.dev.json
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/bin/Debug/net5.0/filmes.dll
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/bin/Debug/net5.0/ref/filmes.dll
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/bin/Debug/net5.0/filmes.pdb
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/obj/Debug/net5.0/filmes.csproj.AssemblyReference.cache
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/obj/Debug/net5.0/filmes.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/obj/Debug/net5.0/filmes.AssemblyInfoInputs.cache
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/obj/Debug/net5.0/filmes.AssemblyInfo.cs
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/obj/Debug/net5.0/filmes.csproj.CoreCompileInputs.cache
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/obj/Debug/net5.0/filmes.dll
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/obj/Debug/net5.0/ref/filmes.dll
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/obj/Debug/net5.0/filmes.pdb
+/home/ubuntu/Documents/DIO/proj/DIO.filmes/filmes/obj/Debug/net5.0/filmes.genruntimeconfig.cache
